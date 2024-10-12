@@ -1,7 +1,9 @@
 Descrição Geral
+
 O Gerenciador de Tarefas é uma aplicação web desenvolvida com JavaServer Faces (JSF) e JPA (Java Persistence API) para facilitar a criação, edição, remoção e visualização de tarefas. O sistema permite que os usuários gerenciem suas atividades diárias de forma organizada e eficiente, categorizando-as por título, descrição, responsável, prioridade e data de vencimento. O projeto é construído sobre o banco de dados PostgreSQL, onde os dados das tarefas são armazenados e gerenciados.
 
 Principais Funcionalidades
+
 Criar Tarefa: Os usuários podem adicionar novas tarefas, fornecendo informações essenciais como título, descrição, responsável, prioridade e data de vencimento.
 
 Atualizar Tarefa: É possível editar os detalhes de uma tarefa existente, permitindo que as informações sejam atualizadas conforme necessário.
@@ -13,6 +15,7 @@ Listar Tarefas: A aplicação exibe uma lista de todas as tarefas registradas, c
 Marcar Tarefa como Concluída: Os usuários têm a capacidade de marcar uma tarefa como concluída, o que a retira da lista de tarefas ativas, permitindo um melhor gerenciamento das atividades.
 
 Estrutura da Aplicação
+
 A aplicação é dividida em várias partes principais:
 
 Modelo (Model): Contém as classes que representam os dados e a estrutura do banco de dados (por exemplo, Task).
@@ -24,6 +27,7 @@ Beans Gerenciados: Contêm a lógica da aplicação e interagem com a interface 
 Páginas JSF: Contêm o código HTML e as marcações JSF que definem a interface do usuário. Elas utilizam componentes JSF para interagir com os beans gerenciados.
 
 Endpoints da Aplicação
+
 Embora a aplicação JSF não tenha endpoints REST convencionais como em uma API RESTful, podemos descrever as ações e interações principais que ocorrem na aplicação. Em vez de usar URLs de endpoints, a aplicação JSF utiliza páginas e ações que são mapeadas por meio de métodos nos beans gerenciados.
 
 Ações e Correspondências
